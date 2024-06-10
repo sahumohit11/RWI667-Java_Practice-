@@ -1,0 +1,27 @@
+class Person{
+ public int a=0; public int b=0; public int c=0
+ public person(){
+	Sytsem.out.println("Person 0");	
+ }
+  public person(int a,int b){
+	Sytsem.out.println("Person 2");
+ }
+  public person(int a,int b,int c){
+	this(3,2);
+	Sytsem.out.println("Person 3");
+ }}
+
+ public Employee extends Person{
+  public Employee(){
+	super(2,3,2);
+	Sytsem.out.println("Employee 0");	
+ }
+  public Employee(int a,int b){
+	//this();
+	Sytsem.out.println("Employee 2");
+ }
+
+ public static void main(String[]args){
+  
+	//Employee e=new Employee();
+	Employee e=new Employee(1,2);
